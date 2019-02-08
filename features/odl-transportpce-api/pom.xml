@@ -18,16 +18,16 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
 
   <groupId>org.opendaylight.transportpce</groupId>
   <artifactId>odl-transportpce-api</artifactId>
-  <version>0.2.2-SNAPSHOT</version>
+  <version>0.2.2</version>
   <packaging>feature</packaging>
 
 
   <properties>
-    <mdsal.model.version>0.13.1-SNAPSHOT</mdsal.model.version>
-    <mdsal.version>1.8.1-SNAPSHOT</mdsal.version>
-    <restconf.version>1.8.1-SNAPSHOT</restconf.version>
+    <mdsal.model.version>0.13.1</mdsal.model.version>
+    <mdsal.version>1.8.1</mdsal.version>
+    <restconf.version>1.8.1</restconf.version>
     <yangtools.version>2.0.16</yangtools.version>
-    <netconf.version>1.5.2-SNAPSHOT</netconf.version>
+    <netconf.version>1.5.2</netconf.version>
     <configfile.directory>etc/opendaylight/karaf</configfile.directory>
   </properties>
 

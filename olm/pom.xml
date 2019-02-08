@@ -13,13 +13,13 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
   <parent>
     <groupId>org.opendaylight.mdsal</groupId>
     <artifactId>binding-parent</artifactId>
-    <version>0.13.2-SNAPSHOT</version>
+    <version>0.13.2</version>
     <relativePath/>
   </parent>
 
   <groupId>org.opendaylight.transportpce</groupId>
   <artifactId>transportpce-olm</artifactId>
-  <version>0.2.2-SNAPSHOT</version>
+  <version>0.2.2</version>
   <packaging>bundle</packaging>
 
   <dependencyManagement>
@@ -27,14 +27,14 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
       <dependency>
         <groupId>org.opendaylight.controller</groupId>
         <artifactId>mdsal-artifacts</artifactId>
-        <version>1.8.2-SNAPSHOT</version>
+        <version>1.8.2</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
       <dependency>
         <groupId>org.opendaylight.netconf</groupId>
         <artifactId>netconf-artifacts</artifactId>
-        <version>1.5.2-SNAPSHOT</version>
+        <version>1.5.2</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
@@ -81,7 +81,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
     <dependency>
         <groupId>org.opendaylight.transportpce</groupId>
         <artifactId>test-common</artifactId>
-        <version>0.2.2-SNAPSHOT</version>
+        <version>0.2.2</version>
         <scope>test</scope>
     </dependency>
   </dependencies>
