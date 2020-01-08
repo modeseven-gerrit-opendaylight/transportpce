@@ -19,7 +19,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
 
   <groupId>org.opendaylight.transportpce</groupId>
   <artifactId>transportpce-renderer</artifactId>
-  <version>0.3.3-SNAPSHOT</version>
+  <version>0.3.3</version>
   <packaging>bundle</packaging>
 
   <dependencyManagement>
@@ -27,14 +27,14 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
       <dependency>
         <groupId>org.opendaylight.controller</groupId>
         <artifactId>mdsal-artifacts</artifactId>
-        <version>1.9.3-SNAPSHOT</version>
+        <version>1.9.3</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
       <dependency>
         <groupId>org.opendaylight.netconf</groupId>
         <artifactId>netconf-artifacts</artifactId>
-        <version>1.6.3-SNAPSHOT</version>
+        <version>1.6.3</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
